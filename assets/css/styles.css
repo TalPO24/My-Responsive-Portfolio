@@ -316,6 +316,7 @@ nav {
     display: flex;
     justify-content: center;
     column-gap: 1.25rem;
+    margin-top: 3rem;
 }
 
 .home__social-link {
@@ -740,6 +741,7 @@ nav {
         text-align: initial;
     }
     .home__social {
+        margin-top: 3rem;
         justify-content: initial;
     }
     .home__blob,
@@ -843,11 +845,13 @@ nav {
         font-size: var(--h3-font-size);
     }
     .services__container {
-        grid-template-columns: repeat(3, 350px);
-        row-gap: 3rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         padding-block: 2.5rem 4rem;
     }
     .services__card {
+        flex: 1 1 30%;
         margin: 2rem;
     }
     .projects__container {
